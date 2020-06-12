@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let name = "22222"
+        var name = "22222"
+        print(name)
+
+        name = "www.baidu.com"
         print(name)
     }
 
